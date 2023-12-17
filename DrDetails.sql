@@ -14,6 +14,3 @@ dr_Assigned varchar(30)
 
 select * from Patient
 
-select * from doctors_data
-
-drop table patient
