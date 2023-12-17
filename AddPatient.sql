@@ -1,6 +1,6 @@
 use hospital
 
-create table Patient(
+create table add_Patient(
 id int PRIMARY KEY AUTO_INCREMENT,
 first_name varchar(20),
 last_name varchar(30),
@@ -12,5 +12,7 @@ patient_description varchar(225),
 dr_Assigned varchar(30)
 )
 
-select * from Patient
+select * from add_Patient
+
+-- drop table Patient
 
